@@ -1,0 +1,25 @@
+{
+    "name": "vit1251/wiki-dump",
+    "description": "MediaWiki XML Dump Reader Writer",
+    "keywords": ["wiki", "dump"],
+    "homepage": "https://github.com/vit1251/wiki-dump",
+    "minimum-stability": "dev",
+    "type": "library",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Vitold Sedyshev",
+            "email": "vit1251@gmail.com",
+            "homepage": "http://www.vitold.org/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/vit1251/wiki-dump/issues"
+    },
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-0": { "Wiki": "" }
+    }
+}
